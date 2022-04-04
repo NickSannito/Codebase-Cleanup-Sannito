@@ -7,13 +7,8 @@
 
 import os
 
+from app.utils import to_usd
 
-def to_usd(my_price):
-    """
-    Invoke like this: to_usd(9.9999)
-    
-    """
-    return '${:,.2f}'.format(my_price)
 
 
 

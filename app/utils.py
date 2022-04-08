@@ -1,5 +1,26 @@
 
-
+def determine_winner(user_choice, computer_choice):
+    '''Determines whether the user or the computer won the game of rock paper scissors based on what each selected. 
+    Takes 2 inputs: user_choice is the user's play, computer_choice is the computer's play'''
+    winners = {
+        "rock": {
+            "rock": None,
+            "paper": "paper",
+            "scissors": "rock",
+        },
+        "paper": {
+            "rock": "paper",
+            "paper": None,
+            "scissors": "scissors",
+        },
+        "scissors": {
+            "rock": "rock",
+            "paper": "scissors",
+            "scissors": None,
+        }
+    }
+    winning_choice = winners[user_choice][computer_choice]
+    return winning_choice
 
 
 

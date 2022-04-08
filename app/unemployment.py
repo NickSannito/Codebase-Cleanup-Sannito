@@ -3,12 +3,12 @@
 print("UNEMPLOYMENT REPORT...")
 
 
-import os
-import json
-from dotenv import load_dotenv
-import requests
+#import os
+#import json
+#from dotenv import load_dotenv
+#import requests
 
-load_dotenv()
+#load_dotenv()
 from app.my_mod import fetch_unemployment_data
 
 #ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")

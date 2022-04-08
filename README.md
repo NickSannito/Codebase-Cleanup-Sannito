@@ -81,6 +81,20 @@ Run the unemployment report:
 python -m app.unemployment
 ```
 
+Run the unemployment email app: 
+
+```sh 
+
+python -m app.unemployment_email
+```
+
+Run the email app: 
+
+```sh
+
+python -m app.email_me 
+```
+
 ## Testing 
 
 Run Tests:

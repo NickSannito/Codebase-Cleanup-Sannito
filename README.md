@@ -49,17 +49,27 @@ python app/game.py
 Run the inventory report: 
 
 ```sh
-python app/groceries.py
+#python app/groceries.py
+python -m app.groceries
 ```
 
 Run the stocks report: 
 
 ```sh
-python app/stock.py
+#python app/stock.py
+python -m app.stocks
 ```
 
 Run the crypto report: 
 
 ```sh
-python app/crypto.py
+#python app/crypto.py
+python -m app.crypto
+```
+
+Run the utils unofficial to_usd test:
+
+```sh
+
+python -m app.utils
 ```

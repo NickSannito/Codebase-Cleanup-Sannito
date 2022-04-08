@@ -73,3 +73,34 @@ Run the utils unofficial to_usd test:
 
 python -m app.utils
 ```
+
+Run the unemployment report: 
+
+```sh
+
+python -m app.unemployment
+```
+
+Run the unemployment email app: 
+
+```sh 
+
+python -m app.unemployment_email
+```
+
+Run the email app: 
+
+```sh
+
+python -m app.email_me 
+```
+
+## Testing 
+
+Run Tests:
+
+```sh 
+
+pytest
+```
+

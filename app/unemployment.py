@@ -18,9 +18,9 @@ from app.my_mod import fetch_unemployment_data
 #response = requests.get(url)
 #parsed_response = json.loads(response.text)
 #print(parsed_response)
-#parsed_response = fetch_unemployment_data()
+parsed_response = fetch_unemployment_data()
 
-data = fetch_unemployment_data()["data"]
+data = parsed_response["data"]
 latest = data[0]
 print(latest) #> {'date': '2022-02-01', 'value': '3.8'}
 
